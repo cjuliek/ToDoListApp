@@ -6,9 +6,9 @@
 
 <h3>Purpose </h3>
 As a chef, I want an app track my recipes and ingredients needed so that it is easy to remember.
-As a mom, I want to make a task list of chores and everyday things I do. I want a way to remember all the things I do and be able to refer back to it so I don't forget what I have or have not done for the day.
-As a student, I need to be able to stay organized and keep track when I finish my assignments or homework. I need to be able to update and revise this list throughout the school term.
-As a general user, I want an easy note-taking app that will track small tasks for me. I want to be able to check them off as I complete it and then be able to go back and edit that if I think of small notes that would help complete the task or further details to remember. 
+As a mom, I want to make a task list of chores and everyday things I do. I want a way to remember all the things I do and be able to refer back to it so I don't forget what I have or have not done for the day. <br />
+As a student, I need to be able to stay organized and keep track when I finish my assignments or homework. I need to be able to update and revise this list throughout the school term. <br />
+As a general user, I want an easy note-taking app that will track small tasks for me. I want to be able to check them off as I complete it and then be able to go back and edit that if I think of small notes that would help complete the task or further details to remember.  <br />
 
 <h3>Technology Used</h3>
 User will need to have the following installed..
