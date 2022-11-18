@@ -13,9 +13,10 @@ As a general user, I want an easy note-taking app that will track small tasks fo
 <h3>Technology Used</h3>
 User will need to have the following installed..
 <ul>
-<li> Node.js</li>
-<li> Express</li>
-<li> EJS</li>
+<li> Node.js </li>
+<li> Express </li>
+<li> EJS </li>
+  <li> React</li>
 </ul>
 
 <h3>MVP Goals</h3>
