@@ -1,0 +1,29 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "![Screen Shot 2022-11-17 at 4 18 27 PM](https://user-images.githubusercontent.com/115204404/202765888-c0d2f03f-9d03-4f36-84e2-36df95d8095a.png) ![Screen Shot 2022-11-17 at 4 18 35 PM](https://user-images.githubusercontent.com/115204404/202765892-2a863734-ec99-4437-89f1-f7fce0371e23.png) ![Screen Shot 2022-11-17 at 4 24 25 PM](https://user-images.githubusercontent.com/115204404/202765895-9a069259-b951-4f8c-9943-e39a336d9bc3.png) <h3>Wireframe.</h3>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjuliek/ToDoListApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjuliek/ToDoListApp/issues"
+  },
+  "homepage": "https://github.com/cjuliek/ToDoListApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
