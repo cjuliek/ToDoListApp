@@ -23,6 +23,7 @@ User will need to have the following installed..
 <ul>
 <li>Have a 'current' task list.</li>
 <li>Have a 'complete' task list that is able to be reopened for new edits / entries</li>
+  <li>Enable unique user/password authentication</li>
 </ul>
 <h3>Stretch Goals</h3>
 <ul>
@@ -30,6 +31,6 @@ User will need to have the following installed..
 <li>Database for unique password(s) saved</li>
 </ul>
 <h4>Issues</h4>
-<p> Fill
+<p> Each task is an individual item listed, instead of being able to be grouped together under various lists. 
 </p>
-Anything Else You'd Like Us to Know
+
