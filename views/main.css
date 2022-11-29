@@ -1,61 +1,4 @@
 :root {
-    --dark: #374151;
-    --darker: #1f2937;
-    --darkest: #111827;
-    --light: #eee;
-    --pink: #ec4899;
-    --purple: #8b5cf6;
-    --gray: #6b7280;
-    --green: #445a3c;
-}
-*{
-    box-sizing: border-box;
-    margin: 0;}
-body{
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: var(--dark);
-    color: #fff;
-}
-header {
-    padding: 2rem 1rem;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-}
-header h1 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    color: var(--gray);
-
-}
-main{
-    flex: 1 1 0%;
-    padding: 2rem 1rem;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-}
-.task-list{
-    padding: 1rem;
-}
-.task-list h2{
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: var(--gray);
-    margin-bottom: 1rem;
-}
-#tasks .task {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--darkest);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-}
-:root {
 	--primary: #EA40A4;
 	--business: #3a82ee;
 	--personal: var(--primary);
@@ -68,13 +11,15 @@ main{
 
 	--business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
 	--personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
-    --work-glow: 0px 0px 4px rgba(154,171, 137, 0.75);
 }
+/* End of Variables */
 
+/* Resets */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'montserrat', sans-serif;
 }
 
 input:not([type="radio"]):not([type="checkbox"]), button {
@@ -84,6 +29,7 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 	background: none;
 	cursor: initial;
 }
+/* End of Resets */
 
 body {
 	background: var(--light);
@@ -178,10 +124,6 @@ input[type="checkbox"] {
 .bubble.personal {
 	border-color: var(--personal);
 	box-shadow: var(--personal-glow);
-}
-.bubble.work {
-    border-color: var(--personal);
-	box-shadow: var(--work-glow);
 }
 
 .bubble::after {
@@ -291,4 +233,31 @@ input:checked ~ .bubble::after {
 .todo-item.done .todo-content input {
 	text-decoration: line-through;
 	color: var(--grey);
+}
+
+.nav_bar {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .nav_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_li a:hover{
+    background-color: #111;
+}
+.navTop {
+    position: fixed;
+    z-index: 2;
 }
