@@ -23,7 +23,7 @@ User will need to have the following installed..
 <ul>
 <li>Have a 'current' task list.</li>
 <li>Have a 'complete' task list that is able to be reopened for new edits / entries</li>
-  <li>Enable unique user/password authentication</li>
+ <li>Enable unique user/password authentication to save task specific to user</li>
 </ul>
 <h3>Stretch Goals</h3>
 <ul>
@@ -31,6 +31,6 @@ User will need to have the following installed..
 <li>Database for unique password(s) saved</li>
 </ul>
 <h4>Issues</h4>
-<p> Each task is an individual item listed, instead of being able to be grouped together under various lists. 
+<p> Each task is an individual item listed, instead of being able to be grouped together under various lists. Big struggle with implementing EJS / react into file setups. Conceptually and with classwork, I could kind of follow along with everything. The project was a bit too open for me. Struggled a lot with how to start the project, so I started this like I did with Project 1 (HTML, CSS, JS) and I thought I could implement the EJS files and routes afterwards. When I tried to, my files would just crash. 
 </p>
 
