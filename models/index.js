@@ -22,5 +22,5 @@ mongoose.connection.on('error', (error) => {
 });
 
 // access models
-module.exports.Location = require("./location.js");
-module.exports.LogEntry = require("./logEntry.js");
+module.exports.Task = require("./task.js");
+module.exports.User = require("./user.js");
