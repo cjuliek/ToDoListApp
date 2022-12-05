@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 
 //Controls for other routes
 app.use('/', taskCtrl)
-// app.use('/', userCtrl)
+app.use('/', userCtrl)
 
 
 // +-+-+-+-+-+-+-+-+
