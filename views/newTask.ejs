@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('index.ejs') %>
+    <%- include ('login.ejs') %>
+
+</head>
+
+<body>
+    <div id="flex-container">
+        <form action="/entry/" method="post">
+            <label for="Task">Task:</label>
+            <input type="text" />
+            <button type="submit">Log Entry</button>
+        </form>
+    </div>
+</body>
+
+</html>
